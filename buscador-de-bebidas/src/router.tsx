@@ -8,7 +8,7 @@ export default function AppRouter() {
             <Routes>
                 <Route element={<Layout/>}> 
                 {/*Layout estará para toda la página*/}
-                <Route path='/' element={<IndexPage />} />
+                <Route path='/' element={<IndexPage />} index/>
                 <Route path='/favoritos' element={<FavoritesPages />} />
             </Route>
             </Routes>
