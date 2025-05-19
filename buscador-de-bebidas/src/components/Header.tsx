@@ -1,5 +1,7 @@
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
+import { useActionData } from "react-router-dom";   
+import { useAppStore } from "../stores/useAppStore";
 
 export default function Header() {
 
@@ -9,6 +11,12 @@ export default function Header() {
 const isHome = useMemo(() => location.pathname === "/", [location.pathname]);
     console.log(isHome);
     {/*Así sabemos si está en la página de inicio*/ }
+   
+    const fetchCategories = useAppStore((state) => state.fetchCategories);
+   
+    useEffect(() => {
+fetchCategories();
+    },[])
 
     return (
         <header className={isHome ? "bg-header bg-center bg-cover" : "bg-slate-800" }>
