@@ -1,10 +1,17 @@
 # 🍸 Cocktail Finder - ¡Tu mejor aliado para descubrir cócteles increíbles!
 
-![Cocktail Finder Demo](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
-
----
-
 ## 🚀 ¿Qué es Cocktail Finder?
+
+<p dir="auto">
+  <img 
+    src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWxrbDd3dnJsZW0zeHk1dnJlaHU4djZzNTFydWllOTFqYjlnbDhzYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ornjMSRYcLXirws7K/giphy.gif"
+    alt="Cocktail Finder Demo" 
+    title="Cocktail Finder Demo"
+    align="right"
+    height="200"
+    style="margin-left: 20px; margin-bottom: 10px; border-radius: 8px;"
+  />
+</p>
 
 ¿Amante de los cócteles? ¿Quieres descubrir recetas únicas al instante?  
 **Cocktail Finder** es una app web ultra rápida y estilizada hecha con **React + TypeScript + Tailwind CSS + React Router DOM + Vite** para que busques cualquier bebida alcohólica y obtengas:
